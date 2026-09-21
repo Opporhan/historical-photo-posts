@@ -1,0 +1,34 @@
+{
+ "level": "safe",
+ "reasons": [
+  "published by 1900: public domain in the US (before 1931); other countries depend on the author's death date"
+ ],
+ "title": "Egypt. Village and pyramids during the flood-time. ca. 189- LCCN2001705532.jpg",
+ "source": "Wikimedia Commons",
+ "source_url": "https://commons.wikimedia.org/wiki/File:Egypt._Village_and_pyramids_during_the_flood-time._ca._189-_LCCN2001705532.jpg",
+ "license": "Public domain",
+ "license_url": "",
+ "usage_terms": "Public domain",
+ "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2001705532\nImage download: http://lcweb2.loc.gov/service/pnp/cph/3a30000/3a38000/3a38600/3a38699v.jpg\nOriginal url: http://hdl.loc.gov/loc.pnp/cph.3a38699",
+ "author": "Frank and Frances Carpenter Collection",
+ "date": "between 1890 and 1900",
+ "retrieved_at": "2026-09-21T06:38:16+00:00",
+ "enhancement": "gentle",
+ "rights": {
+  "status": "verified",
+  "basis": [
+   "source tags: PD-1923, PD-Layout, PD-US-expired, PD-US-expired-text, PD-US-expired/en",
+   "anonymous/corporate work dated 1900 (over 126 years old) (source: https://commons.wikimedia.org/wiki/File:Egypt._Village_and_pyramids_during_the_flood-time._ca._189-_LCCN2001705532.jpg)"
+  ],
+  "problems": [],
+  "author_died": null,
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Egypt._Village_and_pyramids_during_the_flood-time._ca._189-_LCCN2001705532.jpg",
+   "https://commons.wikimedia.org/wiki/File:Egypt._Village_and_pyramids_during_the_flood-time._ca._189-_LCCN2001705532.jpg"
+  ]
+ },
+ "source_size": [
+  3840,
+  3014
+ ]
+}

@@ -1,0 +1,456 @@
+# Post specs for `histposts build`.
+# name: output folder suffix | file: Wikimedia Commons file name | crop: optional (left, top, right, bottom) fractions
+# to trim printed captions / scan borders that the automatic border trim cannot detect.
+# place: label suffix | info: 3-5 lines printed on the image | story: longer text for caption.txt
+# focus: optional (x, y) fractions to keep in frame when the photo is cropped to 4:5 / 9:16
+# author_qid: Wikidata id of the author (death year is read from there) | author_died + rights_source: manual claim with a source URL
+# ("anonymous" only for works older than 126 years) | credit: overrides the author line in caption.txt
+# title_en / story_en: English texts written to caption_en.txt
+posts:
+- name: paris-1913
+  author_qid: Q322030
+  file: 18. Atget Eugène, Chiffonniers.jpg
+  year: '1913'
+  title: Paris'te Paçavra Toplayıcıları
+  place: Paris
+  info: Eugène Atget'nin 1913'te Paris'in Porte d'Asnières bölgesindeki Cité Valmy'de çektiği bu karede paçavra
+    toplayıcıları (chiffonniers) işbaşında. Kentin atıklarını ayıklayıp yeniden satan bu insanlar, kenar mahalle
+    yaşamının bir parçasıydı.
+  story: |-
+    Eugène Atget, 1913'te Paris'in kenar mahallesi Porte d'Asnières'deki Cité Valmy'de paçavra toplayıcılarını (chiffonniers) kaydetti. Bu insanlar kentin atıklarını ayıklayıp yeniden satarak geçiniyordu; yani modern geri dönüşümün çok eski bir biçimiydi.
+
+    Bu görüntü, cam negatiften basılmış albümin kâğıt baskı olarak Musée Carnavalet – Histoire de Paris koleksiyonunda saklanıyor. Atget'nin fotoğrafları, hızla değişen Paris'in sokaklarını ve sokak esnafını belgeleyen en değerli kayıtlar arasında sayılır.
+  tags:
+  - '#paris'
+  - '#fransa'
+  - '#1913'
+  title_en: Rag-pickers of Paris
+  story_en: |-
+    In 1913, Eugène Atget photographed rag-pickers (chiffonniers) at the Cité Valmy near Paris's Porte d'Asnières. They sorted the city's refuse and resold it, an early form of recycling.
+
+    The image is an albumen print made from a glass negative and held by the Musée Carnavalet – Histoire de Paris.
+- name: lizbon-1900
+  author_qid: Q46212823
+  file: BAR000083 - Varinas, Rua do Castelo Picão.jpg
+  year: Yaklaşık 1900
+  title: Lizbon'da Balık Satan Kadınlar
+  place: Lizbon
+  info: Yaklaşık 1900'de Lizbon'un Rua do Castelo Picão sokağında balık satan varinalar. Varinalar, balığı başlarındaki
+    sepetlerle sokak sokak dolaşıp satan, Lizbon'un tanınmış balıkçı kadınlarıydı.
+  story: |-
+    Yaklaşık 1900'de Lizbon'un Rua do Castelo Picão sokağında çekilen bu karede varinalar, yani balığı başlarındaki sepetlerde taşıyıp sokak sokak dolaşarak satan kadınlar görülüyor. Varinalar, Lizbon'un gündelik hayatının ve kent kimliğinin tanınmış bir parçasıydı.
+
+    Commons kaydı fotoğrafçıyı José Artur Leitão Bárcia olarak gösteriyor. Fotoğraf, 9 x 12 cm boyutunda gelatin-gümüş cam negatiften geliyor ve Lizbon Belediye Arşivi'nin kaydında sokak lambası, giysi ve seyyar balık satışı konu başlıkları olarak işlenmiş. Bu tür arşiv negatifleri, yüz yıl önceki sokak hayatını bugüne taşıyor.
+  tags:
+  - '#lizbon'
+  - '#portekiz'
+  - '#1900'
+  title_en: Fish-sellers of Lisbon
+  story_en: |-
+    Around 1900, fish-sellers known as varinas walk Lisbon's Rua do Castelo Picão, carrying their baskets on their heads. Varinas were a familiar part of the city's street life.
+
+    The record credits José Artur Leitão Bárcia. It is a 9 x 12 cm gelatin-silver glass negative in Lisbon's municipal archive.
+- name: wright-ucusu-1903
+  author_qid: Q6259960
+  file: Wrightflyer.jpg
+  year: 17 Aralık 1903
+  title: İlk Motorlu Uçuş
+  place: Kitty Hawk
+  info: 17 Aralık 1903'te Kuzey Karolina'daki Kitty Hawk'ta Orville Wright'ın kullandığı Wright Flyer ilk başarılı
+    motorlu uçuşunu yaptı. 12 saniye süren uçuşta yaklaşık 36,6 metre yol aldı.
+  story: |-
+    17 Aralık 1903 sabahı saat 10.35'te Wright Flyer, Kuzey Karolina'daki Kitty Hawk'ta havalandı ve 12 saniyede yaklaşık 36,6 metre (120 fit) yol aldı. Orville Wright kanat bükme mekanizmasını kullanabilmek için alt kanadın üzerinde yüzüstü yatıyordu; Wilbur Wright ise uçağı dengelemek için yanında koştu.
+
+    Bu fotoğraf, ilk başarılı motorlu ve kontrollü uçuşun anını gösteriyor. Aynı gün toplam dört uçuş yapıldı; en uzunu yaklaşık 59 saniye sürdü.
+  tags:
+  - '#wrightkardeşler'
+  - '#havacılık'
+  - '#1903'
+  title_en: The First Powered Flight
+  story_en: |-
+    On 17 December 1903 at 10:35 a.m., the Wright Flyer lifted off at Kitty Hawk, North Carolina, and flew about 36.6 metres (120 ft) in 12 seconds. Orville lay prone on the lower wing at the controls while Wilbur ran alongside to steady it.
+
+    Four flights were made that day; the longest lasted about 59 seconds.
+- name: makinist-1920
+  author_qid: Q347194
+  file: Lewis Hine Power house mechanic working on steam pump.jpg
+  year: '1920'
+  title: Buhar Pompasındaki Makinist
+  place: Amerika
+  info: Lewis Hine'ın 1920'de çektiği bu portrede, elinde İngiliz anahtarıyla bir makinist buhar pompasının başında
+    eğilmiş çalışıyor. Hine bu tür 'iş portreleriyle' sanayi işçisinin onurunu öne çıkardı.
+  story: |-
+    Lewis Hine, 1920'de bir enerji santralinde buhar pompası üzerinde çalışan makinisti fotoğrafladı. Elinde İngiliz anahtarı olan genç adam, işinin tanımını oluşturan makinelerle çevrili ve dikkatle poz verirken görülüyor.
+
+    Hine, çalışan insanları kahraman gibi gösteren 'iş portreleri' (work portraits) serisiyle tanınır. Fotoğraf, Ulusal Arşivler koleksiyonundaki WPA kayıtlarında (69-RH-4L-2) yer alıyor ve endüstri çağında emeğin insani yüzünü gösteriyor.
+  tags:
+  - '#sanayi'
+  - '#emek'
+  - '#1920'
+  title_en: The Power-House Mechanic
+  story_en: |-
+    In 1920 Lewis Hine photographed a mechanic bent over a steam pump in a power house, wrench in hand, surrounded by the machinery that defined his job.
+
+    Hine's 'work portraits' showed industrial labour with dignity. The print is in the U.S. National Archives (WPA records, 69-RH-4L-2).
+- name: misir-1890lar
+  file: Egypt. Village and pyramids during the flood-time. ca. 189- LCCN2001705532.jpg
+  year: 1890'lar
+  title: Nil Taşkınında Piramitler
+  place: Mısır
+  info: 1890'lı yıllarda Mısır'da taşkın mevsiminde çekilen bu karede, piramitlerin önünde sığ sularda develeriyle
+    bekleyen adamlar görülüyor.
+  story: |-
+    1890'lı yıllarda çekilen bu fotoğrafta, taşkın suları içindeki bir köyün ve piramitlerin önünde develeriyle duran adamlar görülüyor. Kongre Kütüphanesi kaydında 'Mısır. Taşkın mevsiminde köy ve piramitler' başlığıyla yer alıyor.
+
+    Görüntü, Frank ve Frances Carpenter Koleksiyonu'nun bir parçası. Fotoğrafta taşkın suyunun köyleri ve tarlaları nasıl çevrelediğini, piramitlerin ise dönemin yerleşim hayatının hemen yanında durduğunu görmek mümkün.
+  tags:
+  - '#mısır'
+  - '#piramitler'
+  - '#1890'
+  author_died: anonymous
+  rights_source: https://commons.wikimedia.org/wiki/File:Egypt._Village_and_pyramids_during_the_flood-time._ca._189-_LCCN2001705532.jpg
+  title_en: The Pyramids in Flood Season
+  story_en: |-
+    An 1890s photograph of a village and the pyramids during the Nile flood season, with men and camels standing in shallow water.
+
+    The Library of Congress holds it in the Frank and Frances Carpenter Collection under the title 'Egypt. Village and pyramids during the flood-time.'
+- name: pekin-1900
+  file: Peking Street LCCN2014688992.jpg
+  year: '1900'
+  title: Pekin'de Bir Sokak
+  place: Pekin
+  info: Yaklaşık 1900'de Pekin'de çekilen bu sokak sahnesi, Kongre Kütüphanesi'nde 'Peking Street' başlığıyla saklanan
+    bir cam negatiften geliyor.
+  story: |-
+    Bu görüntü, Kongre Kütüphanesi'nde 'Peking Street' başlığıyla saklanan bir cam negatifin baskısı. Yaklaşık 1900'de Pekin sokaklarında günlük hayatı gösteriyor.
+
+    1900, Pekin için çalkantılı bir yıldı; yaz aylarında Boxer Ayaklanması kenti sarstı. Ancak bu karenin ayaklanmayla doğrudan bağı belgelenmiş değil; kayıt yalnızca yer ve yaklaşık dönemi veriyor.
+  tags:
+  - '#çin'
+  - '#pekin'
+  - '#1900'
+  crop:
+  - 0.06
+  - 0.07
+  - 0.94
+  - 0.93
+  author_died: anonymous
+  rights_source: https://commons.wikimedia.org/wiki/File:Peking_Street_LCCN2014688992.jpg
+  title_en: A Street in Peking
+  story_en: |-
+    A street scene in Peking around 1900, from a glass negative the Library of Congress titles 'Peking Street'.
+
+    1900 was a turbulent year for the city, with the Boxer Uprising that summer, but the record does not link this photograph to those events.
+- name: mulberry-street-1900
+  author_died: anonymous
+  file: Mulberry Street, New York City (LOC det.4a08193).jpg
+  year: Yaklaşık 1900
+  title: New York'ta Mulberry Sokağı
+  place: New York
+  info: Yaklaşık 1900'de New York'ta Mulberry Sokağı. Detroit Publishing Co. tarafından çekilen bu yüksek çözünürlüklü
+    baskı, yüzyıl dönümü sokak hayatını olağanüstü ayrıntıyla gösteriyor.
+  story: |-
+    Yaklaşık 1900'de çekilen bu fotoğraf, New York'un Mulberry Sokağı'ndaki sokak hayatını gösteriyor. Görüntü, Detroit Publishing Company'nin negatiflerinden geliyor ve Kongre Kütüphanesi'nde çok yüksek çözünürlüklü olarak saklanıyor.
+
+    Mulberry Sokağı, o dönemde göçmen mahallelerinin, özellikle İtalyan topluluğunun yoğun yaşadığı bir bölgeydi. Yüksek çözünürlük sayesinde sokaktaki ayrıntılar yakından incelenebiliyor.
+  tags:
+  - '#newyork'
+  - '#göçmenler'
+  - '#1900'
+  rights_source: https://commons.wikimedia.org/wiki/File:Mulberry_Street,_New_York_City_(LOC_det.4a08193).jpg
+  title_en: Mulberry Street, New York
+  story_en: |-
+    Mulberry Street in New York around 1900, from a Detroit Publishing Company negative held by the Library of Congress in very high resolution.
+
+    The street lay in a dense immigrant district that was home to a large Italian community.
+- name: klondike-1898
+  author_qid: Q5385972
+  file: Miners climb Chilkoot.jpg
+  year: '1898'
+  title: Klondike Altın Hücumu
+  place: Alaska
+  info: 1898'de Klondike Altın Hücumu sırasında altın arayıcıları Chilkoot Patikası'nın dik yamacını tırmanıyor.
+    Binlerce kişi Yukon'daki altın sahalarına ulaşmak için bu geçitten yürüdü.
+  story: |-
+    E. A. Hegg'in 1898 tarihli bu karesi, Klondike Altın Hücumu sırasında Chilkoot Patikası'nın karlı yamacını tırmanan altın arayıcılarını gösteriyor. Uzun bir sıra hâlinde, adım adım yukarı çıkan insanlar fotoğrafın en çarpıcı yanı.
+
+    Binlerce kişi Yukon'daki altın sahalarına ulaşmak için bu geçitten yürüdü. Kanada tarafı, patikaya çıkanlardan yaklaşık bir yıllık erzak taşımalarını istiyordu; bu yüzden yolculuk çoğu kez defalarca gidip gelmek anlamına geliyordu.
+  tags:
+  - '#altınhücumu'
+  - '#klondike'
+  - '#1898'
+  title_en: The Klondike Gold Rush
+  story_en: |-
+    In 1898, E. A. Hegg photographed gold-seekers climbing the snowy Chilkoot Trail during the Klondike Gold Rush. Thousands walked this pass to reach the Yukon goldfields.
+
+    The Canadian authorities required each person to carry about a year's supplies, which often meant many trips up the slope.
+- name: steerage-1907
+  author_qid: Q313055
+  file: The Steerage MET DP217541.jpg
+  crop:
+  - 0.05
+  - 0.04
+  - 0.95
+  - 0.955
+  year: '1907'
+  title: 'Üçüncü Mevki: The Steerage'
+  place: Atlantik
+  info: Alfred Stieglitz'in 1907'de bir transatlantik yolculuğu sırasında güvertede çektiği The Steerage, alt güvertedeki
+    üçüncü mevki yolcularını gösteriyor. Fotoğraf, modern fotoğraf sanatının dönüm noktalarından biri sayılır.
+  story: |-
+    1907'de Alfred Stieglitz, New York'tan Avrupa'ya giden bir transatlantik vapurunun üst güvertesinde dolaşırken alt güvertedeki üçüncü mevki (steerage) yolcularını fark etti ve bu kareyi çekti. Görüntü, merdivenler, köprüler ve insanlarla geometrik bir düzen oluşturuyor.
+
+    The Steerage, fotoğrafın yalnızca belge değil sanat da olabileceğini savunan modernist yaklaşımın en bilinen örneklerinden biri kabul edilir. Bu baskı, New York'taki The Metropolitan Museum of Art koleksiyonunda saklanıyor.
+  tags:
+  - '#stieglitz'
+  - '#fotoğrafsanatı'
+  - '#1907'
+  title_en: The Steerage
+  story_en: |-
+    In 1907 Alfred Stieglitz, travelling from New York to Europe, noticed the steerage passengers on the lower deck of his ship and made this photograph, a composition of stairs, bridge and people.
+
+    It is often cited as a landmark of modernist photography. This print (made in 1915) is in The Metropolitan Museum of Art's open-access collection.
+- name: bayard-street-1889
+  author_qid: Q379211
+  file: Jacob Riis, Lodgers in a Crowded Bayard Street Tenement.jpg
+  year: '1889'
+  title: Bayard Sokağı'nda Beş Sentlik Yatak
+  place: New York
+  info: Jacob Riis'in 1889'da New York'ta Bayard Sokağı'ndaki kalabalık bir apartmanda çektiği bu kare, 'beş sente
+    bir yer' karşılığı yatan kiracıları gösteriyor.
+  story: |-
+    Jacob Riis'in bu karesinin özgün başlığı 'Bayard Sokağı'ndaki kalabalık bir apartmanda konuklar: beş sente bir yer'. Fotoğraf, 1889'da New York'ta, yatacak yeri bir gecelik ödeyen insanların yaşadığı sıkışık koşulları belgeliyor.
+
+    Riis, göçmen mahallelerindeki yoksulluğu fotoğraflarıyla kamuoyuna taşıyan gazeteci ve fotoğrafçıydı. Bu tür kareler, dönemin konut ve yaşam koşullarına dikkat çekmesiyle bilinir.
+  tags:
+  - '#newyork'
+  - '#jacobriis'
+  - '#1889'
+  title_en: Five Cents a Spot
+  story_en: |-
+    Jacob Riis titled this 1889 photograph 'Lodgers in a Crowded Bayard Street Tenement — Five Cents a Spot'. It documents the cramped conditions of people who paid a few cents for a place to sleep in New York.
+
+    Riis, a journalist and photographer, brought slum conditions to the public's attention.
+- name: istanbul-selamlik
+  file: Bild från familjen von Hallwyls resa genom Mindre Asien och Turkiet 27 April - 20 Juni 1901 - Hallwylska
+    museet - 103201.tif
+  year: 1900'lerin başı
+  title: İstanbul'da Selamlık Töreni
+  place: İstanbul
+  info: Sébah & Joaillier atölyesine ait bu fotoğraf, İstanbul'da Yıldız Hamidiye Camii'nde düzenlenen selamlık
+    törenini gösteriyor. Wilhelmina von Hallwyl, 1901'deki Küçük Asya ve Türkiye gezisi sırasında bu görüntüyü İstanbul'da
+    satın aldı.
+  story: |-
+    Kayıtlarda 'Yıldız Hamidiye Camii'nde selamlık töreni' olarak tanımlanan bu fotoğraf, dönemin tanınmış İstanbul stüdyosu Sébah & Joaillier'nin ürünü. İsveçli Wilhelmina von Hallwyl, eşi ve yakınlarıyla 27 Nisan–20 Haziran 1901 arasında yaptığı Küçük Asya ve Türkiye gezisi sırasında İstanbul ve Bursa'da aldığı fotoğraflar arasında bu kare de vardı.
+
+    Selamlık, padişahın cuma namazı için camiye alayla gitmesi geleneğidir; Yıldız Hamidiye Camii de bu törenlerin yapıldığı yerlerden biriydi. Görüntü, Stockholm'deki Hallwyl Müzesi koleksiyonunda saklanıyor; kayıttaki açıklama İsveççe.
+  tags:
+  - '#istanbul'
+  - '#osmanlı'
+  - '#tarih'
+  crop:
+  - 0.02
+  - 0.02
+  - 0.98
+  - 0.93
+  author_qid: Q20741684
+  credit: Sébah & Joaillier
+  title_en: The Selamlik Ceremony, Istanbul
+  story_en: |-
+    Recorded as a selamlik ceremony at Istanbul's Yıldız Hamidiye Mosque, this photograph is a product of the Istanbul studio Sébah & Joaillier. It was bought in the city by the Swedish traveller Wilhelmina von Hallwyl during a 27 April–20 June 1901 journey through Asia Minor and Turkey.
+
+    It is held by the Hallwyl Museum in Stockholm.
+- name: muybridge-1878
+  file: The Horse in Motion high res.jpg
+  crop:
+  - 0.01
+  - 0.02
+  - 0.99
+  - 0.53
+  year: '1878'
+  title: Hareketin İlk Kareleri
+  place: Kaliforniya
+  author_qid: Q190568
+  info: 1878'de Eadweard Muybridge, Leland Stanford'ın Palo Alto pistinde koşan 'Sallie Gardner' adlı atı, art arda
+    tetiklenen bir dizi kamerayla fotoğrafladı. Amaç, koşan atın bir anda dört ayağının da yerden kesilip kesilmediğini
+    görmekti.
+  story: |-
+    Eadweard Muybridge, 1872'de demiryolu kralı ve sonradan üniversite kurucusu olacak Leland Stanford tarafından, koşan bir atın bir anda dört ayağının da yerden kesilip kesilmediğini araştırmak için tutuldu. Yıllar süren çalışmanın ardından Haziran 1878'de Palo Alto pistinde, Stanford'a ait 'Sallie Gardner' adlı atı 12 kameralık bir düzenekle görüntüledi. Kartın üzerindeki yazıda at 1:40 tempoyla koşuyor ve tarih 19 Haziran 1878 olarak veriliyor; kaynaklar tarihi 'Haziran 1878' olarak da anar.
+
+    Bu kareler, hareketin fotoğrafla adım adım incelenebileceğini gösterdi ve hareketli görüntünün öncü çalışmaları arasında sayılır. Görüntü Kongre Kütüphanesi'nden geliyor.
+  tags:
+  - '#muybridge'
+  - '#fotoğraftarihi'
+  - '#1878'
+  title_en: The Horse in Motion
+  story_en: |-
+    In 1872 Eadweard Muybridge was hired by Leland Stanford to find out whether a galloping horse ever has all four hooves off the ground. In June 1878 at the Palo Alto track he photographed Stanford's horse 'Sallie Gardner' with a battery of 12 cameras. The card itself says the horse ran at a 1:40 gait and gives the date as 19 June 1878; other sources simply say June 1878.
+
+    The images are among the pioneering studies of motion. Library of Congress.
+- name: antietam-1862
+  file: Abraham Lincoln and George B McClellan in the general's tent, Oct 1862.jpg
+  crop:
+  - 0.04
+  - 0.02
+  - 0.98
+  - 0.97
+  year: Ekim 1862
+  title: Antietam'da Lincoln ve McClellan
+  place: Maryland
+  author_qid: Q661176
+  info: Ekim 1862'de Alexander Gardner, Başkan Abraham Lincoln'ü Antietam'da General George B. McClellan'ın çadırında
+    fotoğrafladı. Kare, Amerikan İç Savaşı'ndan kalan belge fotoğraflarından biri.
+  story: |-
+    Antietam Muharebesi'nin ardından Ekim 1862'de Başkan Abraham Lincoln cepheyi ziyaret etti. Alexander Gardner, Lincoln ile General George B. McClellan'ı generalin çadırında fotoğrafladı. Kongre Kütüphanesi bu kareyi 'Antietam, Md. President Lincoln and Gen. George B. McClellan in the general's tent' başlığıyla saklıyor.
+
+    Gardner, İç Savaş boyunca savaş alanlarını ve komutanları belgeleyen fotoğrafçılardan biriydi. Böyle kareler, savaşın yalnızca haritalarla değil görüntülerle de kayda geçtiği ilk dönemlerden birini gösteriyor.
+  tags:
+  - '#içsavaş'
+  - '#lincoln'
+  - '#1862'
+  title_en: Lincoln and McClellan at Antietam
+  story_en: |-
+    After the Battle of Antietam, President Abraham Lincoln visited the army in October 1862. Alexander Gardner photographed him with General George B. McClellan in the general's tent.
+
+    The Library of Congress holds the image as 'Antietam, Md. President Lincoln and Gen. George B. McClellan in the general's tent.'
+- name: chinatown-genthe
+  file: A Mixed Crowd, Old Chinatown - San Francisco, by Arnold Genthe (Getty 109P86).jpg
+  crop:
+  - 0.14
+  - 0.13
+  - 0.865
+  - 0.62
+  year: 1896–1906
+  title: Eski Chinatown'da Karışık Bir Kalabalık
+  place: San Francisco
+  author_qid: Q216070
+  info: Arnold Genthe'nin 1896–1906 arasında San Francisco'nun Chinatown mahallesinde çektiği bu kare, 1906 depreminden
+    önceki sokak hayatını gösteriyor. Genthe, insanları fark ettirmeden fotoğraflamak için küçük bir kamera kullandı.
+  story: |-
+    Alman asıllı Arnold Genthe 1895'te San Francisco'ya geldi ve 1896–1906 arasında Chinatown'ı fotoğrafladı. Küçük ve gözden uzak tutulabilen kamerası, kameradan çekinen insanları gündelik anlarında yakalamasını sağladı.
+
+    Bu kareler, 1906 depremi ve yangınından önceki Chinatown'ı gösteren en önemli görsel kayıtlar arasında sayılıyor. Genthe'nin negatifleri sonradan Kongre Kütüphanesi'ne geçti.
+  tags:
+  - '#sanfrancisco'
+  - '#genthe'
+  - '#chinatown'
+  title_en: Old Chinatown, San Francisco
+  story_en: |-
+    German-born Arnold Genthe arrived in San Francisco in 1895 and photographed Chinatown between 1896 and 1906. His small, unobtrusive camera let him catch people who shied away from photographers.
+
+    His images are among the most important visual records of Chinatown before the 1906 earthquake and fire. His negatives later went to the Library of Congress.
+- name: newsies-1910
+  file: 11-00 A.M. Newsies at Skeeter's Branch. They were all smoking. St. Louis, Mo. - NARA - 523292.jpg
+  year: 9 Mayıs 1910
+  title: Skeeter's Branch'te Gazete Çocukları
+  place: St. Louis
+  author_qid: Q347194
+  info: Lewis Hine, 9 Mayıs 1910 sabahı St. Louis'te Skeeter's Branch'te toplanan gazete satıcısı çocukları fotoğrafladı.
+    Hine'ın düştüğü notta 'hepsi sigara içiyordu' yazıyor.
+  story: |-
+    Ulusal Çocuk İşçiliği Komitesi için çalışan Lewis Hine, 9 Mayıs 1910'da saat 11.00'de St. Louis'te, Jefferson ile Franklin caddelerinin yakınındaki Skeeter's Branch'te gazete satan çocukları fotoğrafladı. Kayıttaki özgün notunda 'hepsi sigara içiyordu' diye belirtiyor.
+
+    Hine'ın fotoğrafları, Amerika Birleşik Devletleri'nde çocuk işçiliğine karşı düzenlemelerin gündeme gelmesine katkı sağladı. Bu görüntü Ulusal Arşivler koleksiyonundan geliyor.
+  tags:
+  - '#lewishine'
+  - '#çocukişçiliği'
+  - '#1910'
+  title_en: Newsboys at Skeeter's Branch
+  story_en: |-
+    Working for the National Child Labor Committee, Lewis Hine photographed newsboys at Skeeter's Branch, near Jefferson and Franklin avenues in St. Louis, at 11 a.m. on 9 May 1910. His original note says they were all smoking.
+
+    Hine's photographs helped bring child-labour regulation onto the public agenda. National Archives.
+- name: newark-1909
+  file: Lewis Hine, Joseph, 10, and Rosy, 8, newsies, Newark, New Jersey, 1909.jpg
+  year: Aralık 1909
+  title: Newark'ta Gazete Satan İki Çocuk
+  place: New Jersey
+  author_qid: Q347194
+  info: Lewis Hine'ın Aralık 1909'da Newark'ta çektiği bu karede 10 yaşındaki Joseph ve 8 yaşındaki Rosy görülüyor.
+    Hine'ın notuna göre oğlan akşama kadar gazete satıyor, kız ise öğleden sonraları satış yapan 5-6 kızdan biri.
+  story: |-
+    Hine'ın özgün notu şöyle: Joseph ve Rosy 10 ve 8 yaşında; oğlan akşama kadar gazete satıyor, kız ise Newark'ta öğleden sonraları satış yapan beş altı kızdan biri. Fotoğraf Aralık 1909'da New Jersey'nin Newark kentinde çekildi.
+
+    Hine, Ulusal Çocuk İşçiliği Komitesi için çalışıyordu ve çektiği fotoğraflar çocuk işçiliğine karşı düzenlemelerin gündeme gelmesine katkı sağladı.
+  tags:
+  - '#lewishine'
+  - '#çocukişçiliği'
+  - '#1909'
+  title_en: Two Newsies in Newark
+  story_en: |-
+    Lewis Hine's original note reads: Joseph and Rosy are 10 and 8 years old; he sells until evening, and she is one of five or six girls who sell in the afternoons in Newark. The photograph was taken in Newark, New Jersey, in December 1909.
+
+    Hine worked for the National Child Labor Committee, and his photographs helped bring child-labour regulation onto the public agenda.
+- name: antietam-koprusu-1862
+  file: Antietam bridge, Maryland - Alex. Gardner, photographer. LCCN2002713092.jpg
+  crop:
+  - 0.215
+  - 0.17
+  - 0.71
+  - 0.7
+  year: '1862'
+  title: Antietam Köprüsü
+  place: Maryland
+  author_qid: Q661176
+  info: Alexander Gardner'a atfedilen bu albümin baskı, Kongre Kütüphanesi'nde 'Antietam bridge, Maryland' başlığıyla
+    saklanıyor. Kare, Amerikan İç Savaşı'nın Antietam muharebesi dönemine ait.
+  story: |-
+    Kongre Kütüphanesi bu görüntüyü 'Antietam köprüsü, Maryland' başlığıyla, Alexander Gardner'a atfedilen tek bir albümin baskı olarak kaydediyor. Antietam Muharebesi, 17 Eylül 1862'de Maryland'de yapıldı.
+
+    Gardner'ın bölgede çektiği fotoğraflar, savaşın sonuçlarını kamuoyuna gösteren ilk görüntüler arasında sayılır.
+  tags:
+  - '#içsavaş'
+  - '#antietam'
+  - '#1862'
+  title_en: The Antietam Bridge
+  story_en: |-
+    The Library of Congress records this image as 'Antietam bridge, Maryland', a single albumen print by Alexander Gardner. The Battle of Antietam was fought in Maryland on 17 September 1862.
+
+    Gardner's photographs of the area are counted among the first images to show the public the aftermath of the war.
+- name: canyon-de-chelly-1873
+  file: Canyon de Chelly ppmsca.10057.jpg
+  year: '1873'
+  title: Canyon de Chelly, Arizona
+  place: Arizona
+  author_qid: Q1371063
+  info: Timothy H. O'Sullivan'ın 1873'te Arizona'da çektiği bu fotoğraf, ABD'nin 100. meridyeninin batısındaki coğrafi
+    ve jeolojik keşif seferlerinin bir parçası olarak elde edildi.
+  story: |-
+    Kongre Kütüphanesi kaydına göre bu fotoğraf, 1871, 1872 ve 1873 mevsimlerinde 100. meridyenin batısında yapılan coğrafi ve jeolojik keşif ve harita çalışmaları sırasında elde edildi. Fotoğrafçı Timothy H. O'Sullivan (1840–1882), bu seferlerde çalışan fotoğrafçılardan biriydi.
+
+    Canyon de Chelly bugün Arizona'da bir ABD ulusal anıtıdır.
+  tags:
+  - '#arizona'
+  - '#osullivan'
+  - '#1873'
+  title_en: Canyon de Chelly, Arizona
+  story_en: |-
+    According to the Library of Congress record, this photograph was made during the geographical and geological explorations and surveys west of the 100th meridian in the seasons of 1871, 1872 and 1873. The photographer, Timothy H. O'Sullivan (1840–1882), was one of those who worked on these expeditions.
+
+    Canyon de Chelly is today a U.S. national monument in Arizona.
+- name: flatiron-1903
+  file: Alfred Stieglitz - The Flatiron Building - Google Art Project.jpg
+  crop:
+  - 0.04
+  - 0.02
+  - 0.96
+  - 0.98
+  year: '1903'
+  title: New York'ta Flatiron Binası
+  place: New York
+  author_qid: Q313055
+  info: Alfred Stieglitz, 1903'te New York'un Flatiron Binası'nı fotoğrafladı. Bina, bu fotoğraftan bir yıl önce,
+    1902'de tamamlanmıştı ve kısa sürede kentin simgelerinden biri oldu.
+  story: |-
+    Alfred Stieglitz, 1903'te New York'un Flatiron Binası'nı fotoğrafladı. Bina 1902'de tamamlanmıştı ve kısa sürede kentin simgelerinden biri oldu.
+
+    Stieglitz (1864–1946), fotoğrafın bir sanat olarak kabul edilmesi için çalışan öncü isimlerden biriydi. Bu görüntü Google Art Project üzerinden bir müze koleksiyonundan geliyor.
+  tags:
+  - '#newyork'
+  - '#stieglitz'
+  - '#1903'
+  title_en: The Flatiron Building, New York
+  story_en: |-
+    In 1903 Alfred Stieglitz photographed New York's Flatiron Building. The building had been completed in 1902 and quickly became one of the city's landmarks.
+
+    Stieglitz (1864–1946) was among the pioneers who argued that photography could be an art. This image comes from a museum collection via the Google Art Project.

@@ -1,0 +1,34 @@
+{
+ "level": "safe",
+ "reasons": [
+  "CC0 / Public Domain Mark"
+ ],
+ "title": "The Steerage MET DP217541.jpg",
+ "source": "Wikimedia Commons",
+ "source_url": "https://commons.wikimedia.org/wiki/File:The_Steerage_MET_DP217541.jpg",
+ "license": "CC0",
+ "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+ "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+ "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art. See the Image and Data Resources Open Access Policy",
+ "author": "Alfred Stieglitz",
+ "date": "1907, printed 1915",
+ "retrieved_at": "2026-09-21T06:38:56+00:00",
+ "enhancement": "gentle",
+ "rights": {
+  "status": "verified",
+  "basis": [
+   "source tags: Cc-zero",
+   "author Alfred Stieglitz died 1946 (Wikidata Q313055)"
+  ],
+  "problems": [],
+  "author_died": 1946,
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:The_Steerage_MET_DP217541.jpg",
+   "https://www.wikidata.org/wiki/Q313055"
+  ]
+ },
+ "source_size": [
+  2673,
+  3803
+ ]
+}

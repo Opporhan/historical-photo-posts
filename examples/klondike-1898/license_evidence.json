@@ -1,0 +1,34 @@
+{
+ "level": "safe",
+ "reasons": [
+  "published by 1898: public domain in the US (before 1931); other countries depend on the author's death date"
+ ],
+ "title": "Miners climb Chilkoot.jpg",
+ "source": "Wikimedia Commons",
+ "source_url": "https://commons.wikimedia.org/wiki/File:Miners_climb_Chilkoot.jpg",
+ "license": "Public domain",
+ "license_url": "",
+ "usage_terms": "Public domain",
+ "credit": "Library and Archives Canada does not allow free use of its copyrighted works. See Category:Images from Library and Archives Canada.",
+ "author": "Hegg, E.A (1867-1948)",
+ "date": "1898-09",
+ "retrieved_at": "2026-09-21T06:38:48+00:00",
+ "enhancement": "gentle",
+ "rights": {
+  "status": "verified",
+  "basis": [
+   "source tags: PD-1923, PD-Canada, PD-Canada/en, PD-Canada/lang, PD-Canada/layout",
+   "author Eric A. Hegg died 1947 (Wikidata Q5385972)"
+  ],
+  "problems": [],
+  "author_died": 1947,
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:Miners_climb_Chilkoot.jpg",
+   "https://www.wikidata.org/wiki/Q5385972"
+  ]
+ },
+ "source_size": [
+  2536,
+  1994
+ ]
+}

@@ -1,0 +1,76 @@
+# Claims that go beyond each photo's own record, checked against Wikipedia with `histposts facts facts.yaml`.
+# expect: tokens (dates, numbers, names) that must appear in the article.
+wright-ucusu-1903:
+  - claim: Four flights that day; the longest lasted about 59 seconds
+    wiki: Wright Flyer
+    expect: ["59 seconds", "12 seconds", "Kitty Hawk"]
+makinist-1920:
+  - claim: Hine worked for the National Child Labor Committee
+    wiki: Lewis Hine
+    expect: ["National Child Labor Committee"]
+newsies-1910:
+  - claim: Hine worked for the National Child Labor Committee
+    wiki: Lewis Hine
+    expect: ["National Child Labor Committee"]
+newark-1909:
+  - claim: Hine's photographs helped bring child-labour regulation onto the agenda
+    wiki: Lewis Hine
+    expect: ["child labor", "1909"]
+klondike-1898:
+  - claim: Thousands crossed the Chilkoot Pass; a year's supplies were required
+    wiki: Chilkoot Pass
+    expect: ["1898", "supplies"]
+steerage-1907:
+  - claim: Stieglitz made The Steerage in 1907 on a voyage to Europe
+    wiki: The Steerage
+    expect: ["1907", "Kaiser Wilhelm II", "Stieglitz"]
+bayard-street-1889:
+  - claim: Riis brought slum conditions to public attention
+    wiki: Jacob Riis
+    expect: ["How the Other Half Lives", "photograph"]
+istanbul-selamlik:
+  - claim: Jean Pascal Sébah partnered with Policarpe Joaillier and died in 1947
+    wiki: Jean Pascal Sébah
+    expect: ["Joaillier", "1947"]
+  - claim: Selamlik (Cuma selamlığı) is the sultan's ceremony on his way to and from Friday prayers
+    wiki: Cuma selamlığı
+    lang: tr
+    expect: ["padişah", "cuma namazlarına"]
+muybridge-1878:
+  - claim: Stanford hired Muybridge in 1872; Sallie Gardner, 19 June 1878, Palo Alto
+    wiki: Eadweard Muybridge
+    expect: ["1872", "Stanford", "Palo Alto", "1878"]
+  - claim: The series was shot in June 1878 at the Palo Alto track with a battery of 12 cameras
+    wiki: Sallie Gardner at a Gallop
+    expect: ["June 1878", "Palo Alto", "12 cameras"]
+antietam-1862:
+  - claim: The Battle of Antietam was fought on 17 September 1862 in Maryland
+    wiki: Battle of Antietam
+    expect: ["September 17, 1862", "Maryland", "Lincoln", "McClellan"]
+antietam-koprusu-1862:
+  - claim: Gardner photographed the Antietam battlefield
+    wiki: Alexander Gardner (photographer)
+    expect: ["Antietam"]
+chinatown-genthe:
+  - claim: Genthe arrived in San Francisco in 1895 and photographed Chinatown before 1906
+    wiki: Arnold Genthe
+    expect: ["1895", "Chinatown", "1906"]
+flatiron-1903:
+  - claim: The Flatiron Building was completed in 1902
+    wiki: Flatiron Building
+    expect: ["1902"]
+canyon-de-chelly-1873:
+  - claim: O'Sullivan joined the Wheeler survey west of the 100th meridian in 1871-1874
+    wiki: Timothy H. O'Sullivan
+    expect: ["1871", "Wheeler", "100th meridian"]
+  - claim: Canyon de Chelly National Monument is in Arizona
+    wiki: Canyon de Chelly National Monument
+    expect: ["Arizona"]
+pekin-1900:
+  - claim: The Boxer Uprising took place in 1900
+    wiki: Boxer Rebellion
+    expect: ["1900", "Beijing"]
+mulberry-street-1900:
+  - claim: Mulberry Street lay in the Italian-American district
+    wiki: Mulberry Street (Manhattan)
+    expect: ["Little Italy"]

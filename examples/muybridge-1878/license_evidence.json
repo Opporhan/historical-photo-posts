@@ -1,0 +1,34 @@
+{
+ "level": "safe",
+ "reasons": [
+  "published by 1878: public domain in the US (before 1931); other countries depend on the author's death date"
+ ],
+ "title": "The Horse in Motion high res.jpg",
+ "source": "Wikimedia Commons",
+ "source_url": "https://commons.wikimedia.org/wiki/File:The_Horse_in_Motion_high_res.jpg",
+ "license": "Public domain",
+ "license_url": "",
+ "usage_terms": "Public domain",
+ "credit": "Provided directly by Library of Congress Prints and Photographs Division",
+ "author": "Eadweard Muybridge",
+ "date": "1878",
+ "retrieved_at": "2026-09-21T06:52:07+00:00",
+ "enhancement": "gentle",
+ "rights": {
+  "status": "verified",
+  "basis": [
+   "source tags: Cc-pd-mark-footer, PD-Layout, PD-US-expired-text, PD-old-100-expired, PD-old-X-expired",
+   "author Eadweard Muybridge died 1904 (Wikidata Q190568)"
+  ],
+  "problems": [],
+  "author_died": 1904,
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:The_Horse_in_Motion_high_res.jpg",
+   "https://www.wikidata.org/wiki/Q190568"
+  ]
+ },
+ "source_size": [
+  3840,
+  2367
+ ]
+}
