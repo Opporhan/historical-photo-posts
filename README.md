@@ -4,6 +4,8 @@
 ![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
+🇹🇷 [Türkçe README](README.tr.md)
+
 Turn **public-domain black-and-white historical photographs** into ready-to-post **Instagram (4:5)** and
 **TikTok/Reels (9:16)** content: found, rights-checked with evidence, gently restored, laid out with a title and a
 short text, and captioned in Turkish and English.
@@ -195,6 +197,6 @@ Telifsiz, siyah-beyaz tarihi fotoğrafları bulur, hak durumunu kanıtla denetle
 Wikidata'dan yazarın ölüm yılı, ABD kuralı), orijinale sadık kalarak iyileştirir ve Türkçe başlık ile bilgi metniyle
 Instagram (4:5) ve TikTok/Reels (9:16) postlarına dönüştürür. Her post için lisans kanıtı, önce/sonra görseli,
 Türkçe ve İngilizce caption, alt metin ve isteğe bağlı kısa video üretilir. Metinlerdeki iddialar Wikipedia'ya karşı
-ücretsiz olarak kontrol edilebilir (`histposts facts`). Araç hiçbir şeyi kendisi paylaşmaz; çıktıyı inceleyip siz
+ücretsiz olarak kontrol edilebilir (`histposts facts`). Tam Türkçe rehber: [README.tr.md](README.tr.md). Araç hiçbir şeyi kendisi paylaşmaz; çıktıyı inceleyip siz
 paylaşırsınız. Bu bir risk filtresidir, hukuki tavsiye değildir. Kurulum ve komutlar yukarıda; ayrıntılar için
 [docs/licensing.md](docs/licensing.md).
